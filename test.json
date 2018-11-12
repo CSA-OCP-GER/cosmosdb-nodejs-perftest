@@ -1,0 +1,67 @@
+{
+    "id": "1",
+    "index": 0,
+    "guid": "be00001d-e685-4a7d-96ce-d6b96ded659f",
+    "isActive": true,
+    "balance": "$1,067.70",
+    "picture": "http://placehold.it/32x32",
+    "age": 27,
+    "eyeColor": "green",
+    "name": "Melanie Olson",
+    "gender": "female",
+    "company": "CORPULSE",
+    "email": "melanieolson@corpulse.com",
+    "phone": "+1 (832) 582-2193",
+    "address": "155 Macon Street, Drytown, Nebraska, 9907",
+    "about": "Adipisicing do mollit excepteur et exercitation ad ad sint ut duis dolor est laborum laboris. Ullamco nostrud magna pariatur voluptate aute officia id do amet amet. Officia qui proident cillum ullamco aliqua. Voluptate non reprehenderit enim ullamco consectetur excepteur exercitation voluptate sint do ipsum enim deserunt.\r\n",
+    "registered": "2014-06-05T02:05:01 -02:00",
+    "latitude": -24.222075,
+    "longitude": -109.353273,
+    "tags": [
+        "velit",
+        "officia",
+        "id",
+        "proident",
+        "ex",
+        "aliqua",
+        "Lorem",
+        "dolore",
+        "veniam",
+        "et"
+    ],
+    "friends": [{
+            "id": 0,
+            "name": "Nadine Beasley"
+        },
+        {
+            "id": 1,
+            "name": "Brown Leblanc"
+        },
+        {
+            "id": 2,
+            "name": "Alisha Klein"
+        },
+        {
+            "id": 3,
+            "name": "Suzette Lowery"
+        },
+        {
+            "id": 4,
+            "name": "Kari Schmidt"
+        },
+        {
+            "id": 5,
+            "name": "Boyer Price"
+        },
+        {
+            "id": 6,
+            "name": "Trudy Shannon"
+        },
+        {
+            "id": 7,
+            "name": "Florence Rivers"
+        }
+    ],
+    "greeting": "Hello, Melanie Olson! You have 10 unread messages.",
+    "favoriteFruit": "banana"
+}

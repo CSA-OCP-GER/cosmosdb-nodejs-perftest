@@ -1,0 +1,5 @@
+node_modules
+.ENV
+job.yaml
+package-lock.json
+container.txt

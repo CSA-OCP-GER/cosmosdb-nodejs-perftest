@@ -1,0 +1,28 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: cosmosperftest
+spec:
+  parallelism: 200
+  template:
+    metadata:
+      labels:
+        name: cosmosperftest
+    spec:
+      containers:
+      - name: cosmosperftest
+        image: csaocpger/cosmos-perf-test:4.0
+        env: 
+          - name: "environment"
+            value: "PROD"
+          - name: "HOST"
+            value: "COSMOS_URL"
+          - name: "DATABASE"
+            value: "COSMOS_DATABASE"
+          - name: "AUTHKEY"
+            value: "COSMOS_AUTH_KEY"
+          - name: "COLLECTION"
+            value: "COLLECTION_NAME"
+          - name: "COUNT"
+            value: "500"
+      restartPolicy: Never
